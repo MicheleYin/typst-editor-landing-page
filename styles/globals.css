@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aligns with typst-editor `src/theme.css` (dark pastel chrome). */
+:root {
+  --app-bg: #2c3142;
+  --app-fg: #e2e6f4;
+  --app-fg-secondary: #b8bfd4;
+  --app-fg-muted: #949db8;
+  --app-fg-subtle: #8a93ad;
+  --app-border: #4a5168;
+  --app-border-strong: #5c6480;
+  --app-surface: #343a4e;
+  --app-surface-elevated: #3d445a;
+  --app-surface-hover: #454c64;
+  --app-card-border: #525a72;
+  --app-link: #a8c4e8;
+  --app-accent: #747bff;
+  --app-header-badge-bg: #c4b5e0;
+  --app-header-badge-fg: #2c3142;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background-color: var(--app-bg);
+  color: var(--app-fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#nprogress .bar {
+  background: var(--app-accent) !important;
+}
+
+/* Drupal body / typography plugin */
+.prose-landing {
+  --tw-prose-body: var(--app-fg-secondary);
+  --tw-prose-headings: var(--app-fg);
+  --tw-prose-links: var(--app-link);
+  --tw-prose-bold: var(--app-fg);
+  --tw-prose-quotes: var(--app-fg-muted);
+  --tw-prose-quote-borders: var(--app-border);
+  --tw-prose-code: var(--app-fg);
+  --tw-prose-pre-bg: var(--app-surface);
+}

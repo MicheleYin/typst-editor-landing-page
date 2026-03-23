@@ -1,0 +1,136 @@
+{
+  "siteName": "Typst Editor",
+  "meta": {
+    "description": "Typst Editor: local-first writing with live Typst preview, the Monaco editor, multi-format previews, and PDF tools.",
+    "ogImage": "/images/meta.jpg"
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Privacy",
+      "href": "/privacy"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "/terms"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq"
+    }
+  ],
+  "footer": {
+    "copyrightName": "Typst Editor",
+    "links": []
+  },
+  "home": {
+    "heroTitle": "Typst Editor",
+    "heroSubtitle": "A focused environment for writing Typst with a modern editor, live preview, and support for many asset types—all running locally.",
+    "featuresSectionTitle": "What you get",
+    "features": [
+      {
+        "title": "Live Typst editing",
+        "description": "Compose Typst with fast feedback as the preview updates while you type."
+      },
+      {
+        "title": "Monaco editor",
+        "description": "A VS Code–style editing experience: familiar shortcuts, theming, and productivity."
+      },
+      {
+        "title": "Rich file previews",
+        "description": "Preview HTML, SVG, PNG, JPEG, JSON, and Markdown alongside your project."
+      },
+      {
+        "title": "PDF preview and tools",
+        "description": "Open PDFs in the app with a built-in viewer and annotation-style workflows."
+      },
+      {
+        "title": "Local-first",
+        "description": "Your files stay on your machine—work offline and keep control of your content."
+      }
+    ],
+    "marketingFeatures": [
+      {
+        "title": "Instant Live Preview",
+        "description": "See your changes as you type with our blazing-fast live preview. No more waiting for manual recompilation—your formatted document is always right there, allowing for seamless iterations and perfect results.",
+        "image": "/images/ipad/ios_1_1.png",
+        "imageAlt": "Typst Editor live preview side-by-side",
+        "imageLeft": false
+      },
+      {
+        "title": "Focused Writing Experience",
+        "description": "The Monaco-powered editor provides a familiar, high-performance environment for all your Typst documents. Enjoy features like syntax highlighting, auto-completion that helps you focus on your content",
+        "image": "/images/ipad/ios_1_2.png",
+        "imageAlt": "Typst Editor on iPad showing writing interface",
+        "imageLeft": true
+      },
+      {
+        "title": "Files integration",
+        "description": "Integrates with the Files app on iOS and iPadOS, allowing you to open and save Typst documents to iCloud Drive, Dropbox, Google Drive, and other cloud storage providers.",
+        "image": "/images/ipad/ios_1_3.png",
+        "imageAlt": "Typst Editor on iPad showing file integration",
+        "imageLeft": false
+      },
+      {
+        "title": "Markdown Preview",
+        "description": "Preview Markdown files in the app with a built-in viewer and annotation-style workflows. Perfect for reviewing and refining your documents.",
+        "image": "/images/ipad/ios_1_4.png",
+        "imageAlt": "Typst Editor on iPad showing Markdown preview",
+        "imageLeft": true
+      },
+      {
+        "title": "Annotate PDF",
+        "description": "Annotate PDFs with highlights, comments, and drawings. Perfect for reviewing and refining your documents.",
+        "image": "/images/ipad/ios_1_5.png",
+        "imageAlt": "Typst Editor on iPad showing PDF annotation",
+        "imageLeft": false
+      },
+      {
+        "title": "Dark Mode",
+        "description": "Switch between light and dark mode to suit your preference. Perfect for late-night writing sessions or working in bright environments.",
+        "image": "/images/ipad/ios_1_6.png",
+        "imageAlt": "Typst Editor on iPad showing dark mode",
+        "imageLeft": true
+      },
+      {
+        "title": "Preview Images, SVGs, and More",
+        "description": "Preview images, SVGs, and other assets directly in the editor. Perfect for reviewing and refining your documents.",
+        "image": "/images/ipad/ios_1_9.png",
+        "imageAlt": "Typst Editor on iPad showing quick access sidebar",
+        "imageLeft": false
+      }
+    ],
+    "screenshots": [
+      "/images/ipad/ios_1_1.png",
+      "/images/ipad/ios_1_2.png",
+      "/images/ipad/ios_1_3.png",
+      "/images/ipad/ios_1_4.png",
+      "/images/ipad/ios_1_5.png",
+      "/images/ipad/ios_1_6.png",
+      "/images/ipad/ios_1_7.png",
+      "/images/ipad/ios_1_8.png",
+      "/images/ipad/ios_1_9.png"
+    ]
+  },
+  "pages": [
+    {
+      "slug": "privacy",
+      "title": "Privacy",
+      "markdownFile": "privacy.md"
+    },
+    {
+      "slug": "terms",
+      "title": "Terms & Conditions",
+      "markdownFile": "terms.md"
+    },
+    {
+      "slug": "faq",
+      "title": "FAQ",
+      "markdownFile": "faq.md"
+    }
+  ],
+  "githubUrl": "https://github.com/MicheleYin/typst-editor"
+}
