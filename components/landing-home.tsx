@@ -54,7 +54,6 @@ export function LandingHome({ home }: LandingHomeProps) {
           </div>
         </section>
       )}
-      )}
     </>
   )
 }
