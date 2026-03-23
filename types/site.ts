@@ -28,6 +28,14 @@ export interface HomeContent {
   features: HomeFeature[]
   screenshots?: string[]
   marketingFeatures?: MarketingFeature[]
+  ios?: {
+    marketingFeatures?: MarketingFeature[]
+    screenshots?: string[]
+  }
+  macos?: {
+    marketingFeatures?: MarketingFeature[]
+    screenshots?: string[]
+  }
 }
 
 export interface MarkdownPageRef {
