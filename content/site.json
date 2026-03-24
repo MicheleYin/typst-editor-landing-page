@@ -114,7 +114,8 @@
         "/images/ipad/ios_1_7.png",
         "/images/ipad/ios_1_8.png",
         "/images/ipad/ios_1_9.png"
-      ]
+      ],
+      "downloadUrl": "https://apps.apple.com/app/id6760779674"
     },
     "macos": {
       "marketingFeatures": [
@@ -181,8 +182,10 @@
         "/images/macos/macos_10.png",
         "/images/macos/macos_11.png",
         "/images/macos/macos_12.png"
-      ]
-    }
+      ],
+      "downloadUrl": "https://apps.apple.com/app/id6760779674"
+    },
+    "downloadUrl": "https://apps.apple.com/app/id6760779674"
   },
   "pages": [
     {

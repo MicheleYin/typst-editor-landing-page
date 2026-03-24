@@ -31,11 +31,14 @@ export interface HomeContent {
   ios?: {
     marketingFeatures?: MarketingFeature[]
     screenshots?: string[]
+    downloadUrl?: string
   }
   macos?: {
     marketingFeatures?: MarketingFeature[]
     screenshots?: string[]
+    downloadUrl?: string
   }
+  downloadUrl?: string
 }
 
 export interface MarkdownPageRef {

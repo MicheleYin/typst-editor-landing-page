@@ -54,6 +54,25 @@ export function LandingHome({ home }: LandingHomeProps) {
               </button>
             </div>
           </div>
+
+          <div className="mt-8">
+            <a
+              href={platform === "macos" ? home.macos?.downloadUrl : home.ios?.downloadUrl}
+              className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold text-white bg-[var(--app-accent)] rounded-2xl hover:brightness-110 transition-all shadow-xl hover:scale-[1.02] active:scale-[0.98]"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                className="w-6 h-6 fill-current"
+                aria-hidden="true"
+              >
+                <path d="M12 21l-8-9h6v-12h4v12h6l-8 9z" />
+              </svg>
+              {platform === "macos" ? "Download for macOS" : "Download on the App Store"}
+            </a>
+            <p className="mt-4 text-sm text-[var(--app-fg-secondary)] opacity-80">
+              {platform === "macos" ? "Universal build (Intel & Apple Silicon)" : "Requires iPadOS 15.0 or later"}
+            </p>
+          </div>
         </div>
       </section>
 

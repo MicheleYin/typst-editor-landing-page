@@ -13,15 +13,16 @@ interface NavbarProps {
   siteName: string
   links: NavLink[]
   githubUrl?: string
+  downloadUrl?: string
 }
 
-export function Navbar({ siteName, links, githubUrl, ...props }: NavbarProps) {
+export function Navbar({ siteName, links, githubUrl, downloadUrl, ...props }: NavbarProps) {
   return (
     <header
       className="static top-0 z-50 flex-shrink-0 py-4 border-b border-[var(--app-border)] bg-[var(--app-bg)] md:sticky md:backdrop-blur-sm md:bg-[var(--app-bg)]/95"
       {...props}
     >
-      <div className="container flex flex-col items-start justify-between px-6 mx-auto md:flex-row md:items-center gap-4">
+      <div className="container flex flex-col items-center justify-between px-6 mx-auto md:flex-row gap-4">
         <div className="flex items-center gap-6">
           <Link
             href="/"
@@ -54,7 +55,17 @@ export function Navbar({ siteName, links, githubUrl, ...props }: NavbarProps) {
             </a>
           )}
         </div>
-        {links?.length ? <Menu items={links} /> : null}
+        <div className="flex items-center gap-6 md:gap-8">
+          {links?.length ? <Menu items={links} /> : null}
+          {downloadUrl && (
+            <a
+              href={downloadUrl}
+              className="px-5 py-2 text-sm font-semibold text-white bg-[var(--app-accent)] rounded-lg hover:brightness-110 transition-all shadow-sm whitespace-nowrap"
+            >
+              Download
+            </a>
+          )}
+        </div>
       </div>
     </header>
   )
